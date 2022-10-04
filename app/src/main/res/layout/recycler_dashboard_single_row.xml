@@ -37,12 +37,16 @@
         />
 
     <TextView
+        android:id="@+id/txtRating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
         android:padding="2dp"
         android:text="Rating"
-        android:layout_toRightOf="@+id/txtBookName"
-        android:layout_marginLeft="70dp"/>
+        android:textSize="12sp" />
 
 
 </RelativeLayout>
